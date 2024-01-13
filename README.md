@@ -58,9 +58,9 @@ This second option frees the students from installing the environments to run Py
    ```
    and replace ```$$$$$``` with the choices below that matches your platform:
 
-    - MacOS: ```./grade_for_student```
+    - MacOS: ```./precheck_for_student```
     - Windows: ```precheck_for_student.exe```
-    - Linux: ```./grade_for_student.exe```
+    - Linux: ```./precheck_for_student```
  
 Although it sounds more convenient to use executable files, because the compilation process is done by different platforms and computer architectures are of great variaty, it is possible that the executable file is not compatible with your platform. If you encounter this problem, please try option 1 or contact Jiaqi.
 
@@ -73,7 +73,7 @@ sudo spctl --master-disable
 
 For Linux users, you should change the permission of the executable or the whole directory by running:
 ```
-chmod +x grade_for_student.exe
+chmod +x precheck_for_student.exe
 ```
 
 For Windows users, if you encounter such a permission issue that you cannot handle, please contact Jiaqi with a screenshot of the errors returned.
