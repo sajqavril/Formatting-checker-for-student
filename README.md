@@ -45,10 +45,12 @@ This is the most recommended because it is independent of what platforms your PC
    Keep returning to this precheck process until there are no formatting errors before submitting to Canvas!
    ```
 
+For Windows users, if you have trouble when importing parselmouth package, you may try to unload, referring to [this tutorial]().
+
 ## Option 2: Run executable files 
 This second option frees the students from installing the environments to run Python, and there are only three steps:
 
-1. Download the ```dist-$$/``` directory of this package, choosing ```$$``` for your platform, and then move it to the desired location on your PC.
+1. Download the ```dist-$$/``` directory of this package, choosing ```$$``` for your platform, and then move it to the desired location on your PC. If there does not have a version that matches your platform, please try option 1 or contact Jiaqi.
 2. Go to the directory ```dist-$$/precheck_for_student/``` and run the executable with the same three parameters:
    1. your_andrew_id: your unique Andrew ID.
    2. your_submission_path: the absolute path to your submission; if there are spaces in the address, please add a backslash before each space.
